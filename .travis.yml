@@ -1,0 +1,27 @@
+sudo: false
+language: node_js
+node_js:
+  - "10.0.0"
+
+env:
+  global:
+    - YARN_VERSION=1.6.0
+
+before_install:
+  - export PATH="$HOME/.yarn/bin:$PATH"
+  - |
+    if [[ ! -e ~/.yarn/bin/yarn || $(yarn --version) != "${YARN_VERSION}" ]]; then
+      curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version $YARN_VERSION
+    fi
+
+script:
+  - yarn run build
+
+cache:
+  yarn: true
+  directories:
+    - "~/.yarn"
+    - node_modules
+
+notifications:
+  email: evenchange4@gmail.com
