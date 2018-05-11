@@ -1,0 +1,7 @@
+.next/
+coverage/
+node_modules/.cache
+pkg/
+.env
+Dockerfile
+README.md
