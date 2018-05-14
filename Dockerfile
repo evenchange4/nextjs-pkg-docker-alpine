@@ -5,6 +5,7 @@ COPY . .
 RUN yarn install --pure-lockfile --ignore-engines
 ENV NODE_ENV=production
 RUN yarn run build
+RUN rm -rf node_modules/webpack node_modules/webpack-dev-middleware node_modules/webpack-hot-middleware
 RUN yarn run pkg
 
 # And then copy pkg binary from that stage to the smaller base image
