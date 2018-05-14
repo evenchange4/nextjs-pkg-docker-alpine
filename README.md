@@ -33,6 +33,8 @@ $ docker run --rm -it \
   nextjs-pkg-docker-alpine
 ```
 
+> Note: It might take some time to `fetch base Node.js binaries to PKG_CACHE_PATH` during the pkg process.
+
 ## Deploy to Now
 
 ```bash
