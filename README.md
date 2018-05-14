@@ -26,7 +26,11 @@ NODE_ENV=production ./pkg/nextjs-pkg-docker-alpine
 
 ```bash
 $ docker build -t nextjs-pkg-docker-alpine .
-$ docker run --rm -it -p 3003:3003 nextjs-pkg-docker-alpine
+$ docker run --rm -it \
+  -p 3003:3003 \
+  -e "PORT=3003" \
+  -e "API_URL=https://API_URL.com" \
+  nextjs-pkg-docker-alpine
 ```
 
 ## Deploy to Now

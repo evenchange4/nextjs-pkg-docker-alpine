@@ -2,8 +2,7 @@
   "private": true,
   "name": "nextjs-pkg-docker-alpine",
   "version": "1.0.0",
-  "description":
-    "Deploy a commercial Next.js application with pkg and docker.",
+  "description": "Deploy a commercial Next.js application with pkg and docker.",
   "author": "Michael Hsu <evenchange4@gmail.com>",
   "license": "MIT",
   "bin": "server.js",
@@ -18,7 +17,7 @@
     "pkg": "pkg . --targets node9-alpine-x64 --out-path pkg"
   },
   "dependencies": {
-    "next": "6.0.0",
+    "next": "6.0.2",
     "react": "16.3.2",
     "react-dom": "16.3.2"
   },
