@@ -6,7 +6,7 @@
 
 https://nextjs-pkg-docker-alpine.now.sh/
 
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/evenchange4/nextjs-pkg-docker-alpine&docker=true)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/evenchange4/nextjs-pkg-docker-alpine&docker=true&env=API_URL)
 
 ## Install and Build
 
