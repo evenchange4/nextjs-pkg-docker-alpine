@@ -1,6 +1,7 @@
 # Nextjs-pkg-docker-alpine
 
-> Deploy a commercial Next.js application with [pkg](https://github.com/zeit/next.js/blob/canary/examples/with-pkg/README.md) and [docker](https://github.com/zeit/next.js/blob/canary/examples/with-docker/README.md).
+> Deploy a commercial Next.js application with [pkg](https://github.com/zeit/next.js/blob/canary/examples/with-pkg/README.md) and [docker](https://github.com/zeit/next.js/blob/canary/examples/with-docker/README.md).  
+> Medium article: [Deploy a commercial Next.js application with pkg and docker](https://medium.com/@evenchange4/deploy-a-commercial-next-js-application-with-pkg-and-docker-5c73d4af2ee)
 
 ## Demo
 
