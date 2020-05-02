@@ -17,7 +17,7 @@
     "pkg": "pkg . --targets node9-alpine-x64 --out-path pkg"
   },
   "dependencies": {
-    "next": "6.0.2",
+    "next": "9.3.2",
     "react": "16.3.2",
     "react-dom": "16.3.2"
   },
