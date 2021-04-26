@@ -22,7 +22,7 @@
     "react-dom": "16.3.2"
   },
   "devDependencies": {
-    "pkg": "4.3.1"
+    "pkg": "4.5.1"
   },
   "now": {
     "alias": "nextjs-pkg-docker-alpine"
