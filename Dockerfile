@@ -1,5 +1,5 @@
 # Do the npm install or yarn install in the full image
-FROM mhart/alpine-node:10.0.0 AS builder
+FROM mhart/alpine-node:10.24.1 AS builder
 WORKDIR /app
 COPY . .
 RUN yarn install --pure-lockfile --ignore-engines
