@@ -9,7 +9,7 @@ RUN rm -rf node_modules/webpack node_modules/webpack-dev-middleware node_modules
 RUN yarn run pkg
 
 # And then copy pkg binary from that stage to the smaller base image
-FROM alpine:3.7
+FROM alpine:3.13
 RUN apk update && \
   apk add --no-cache libstdc++ libgcc ca-certificates && \
   rm -rf /var/cache/apk/*
